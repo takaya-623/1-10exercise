@@ -14,6 +14,7 @@ main {
   width: 960px;
   margin: 50px auto;
   display: flex;
+  justify-content: space-between;
 }
 
 section {
@@ -21,11 +22,6 @@ section {
   padding: 10px;
   background-color: rgba(128, 128, 128, 0.123);
   position: relative;
-  margin-right: 30px;
-}
-
-section:last-child {
-  margin-right: 0;
 }
 
 .image1 {
@@ -81,9 +77,5 @@ footer {
   section:nth-child(2) {
     margin-top: 20px;
     margin-bottom: 20px;
-  }
-
-  section:last-child {
-    margin-right: 30px;
   }
 }
